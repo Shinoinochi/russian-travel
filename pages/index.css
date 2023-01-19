@@ -1,11 +1,13 @@
 @import url(../vendor/normalize.css);
 @import url(../fonts/inter.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/intro/intro.css);
@@ -19,6 +21,15 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__url-heading/website__url-heading.css);
+@import url(../blocks/place/__website/__link/website__link.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/footer.css);
 
 body {
      background-color: #2A2C2F; /* Костыль исправить!! */
@@ -30,75 +41,6 @@ body {
 }
 
 
-.paragraph_first {
-    grid-area: text1;
-
-}
-.paragraph_second {
-    grid-area: text2;
-}
-.website__url-heading {
-    color:#AAA;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 12px;
-    margin: 0;
-    margin-bottom: 12px;
-}
-.website__link {
-    text-decoration: underline;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    margin: 0;
-}
-.cover {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(../images/cover-trains.jpg);
-    min-height: 740px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-bottom: 92px;
-}
-.cover__overlay:hover {
-    background-color: #2A2C2F;
-    opacity: 0.3;
-}
-.cover__title {
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 76px;
-    margin:  245px 312px 32px 312px;
-    text-align: center;
-}
-.cover__subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    margin:  0 412px 0 412px;
-    text-align: center;
-
-}
-.footer {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 48px 24px 48px;
-}
-.footer__list {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.footer__link {
-    margin-right: 18px;
-}
-.footer__copyright {
-
-}
 
 
 

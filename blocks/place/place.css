@@ -3,6 +3,5 @@
     margin: 0 148px 80px 148px ;
     grid-template-areas: 
     "title url"
-    "image text1"
-    "image text2";
+    "image text";
 }
