@@ -7,3 +7,15 @@
     margin-bottom: 92px;
     
 }
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        margin: 0 24px 88px 24px;
+    }
+}

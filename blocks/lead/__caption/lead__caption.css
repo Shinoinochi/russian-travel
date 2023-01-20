@@ -3,3 +3,11 @@
     margin-top: 6px;
     margin-bottom: 92px;
 }
+
+@media screen and (max-width: 768px) {
+    .lead__caption {
+        margin-left: 24px;
+        margin-bottom: 88px;
+    }
+    
+}

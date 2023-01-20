@@ -3,3 +3,14 @@
     flex-direction: column;
     margin: 0 442px 0 148px;
 }
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0 286px 0 48px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .intro {
+        margin: 0 24px 0 24px;
+    }
+}

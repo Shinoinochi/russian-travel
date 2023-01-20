@@ -5,3 +5,15 @@
     "title url"
     "image text";
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        margin: 0 48px 80px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        margin: 0 24px 73px 24px;
+    }
+}

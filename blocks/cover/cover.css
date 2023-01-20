@@ -5,11 +5,11 @@
     align-items: center;
     margin-bottom: 92px;
     background-image: url(../../images/cover-trains.jpg);
-    min-width: 1184px;
+    min-width: 100%;
     min-height: 740px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top ;
 }
 .cover::after {
     content: "";
@@ -24,4 +24,20 @@
 }
 .cover:hover::after {
     opacity: 0.8;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-height: 640px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        min-height: 480px;
+        margin-bottom: 88px;
+    }
+    
 }
