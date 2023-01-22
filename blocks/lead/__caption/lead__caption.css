@@ -11,3 +11,16 @@
     }
     
 }
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1;
+        margin-left: 16px;
+        margin-bottom: 64px;
+    }
+
+ }
+
+
+
