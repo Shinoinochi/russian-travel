@@ -23,13 +23,10 @@
 .cover__link:hover::after {
     opacity: 0.8;
 }
-
-
 @media screen and (max-width: 1024px) {
     .cover__link {
          min-height: 640px;
     }
-    
 }
 @media screen and (max-width: 1023px) {
     .cover__link {

@@ -9,12 +9,9 @@
     .cover {
         margin-bottom: 88px;
     }
-    
 }
-
 @media screen and (max-width: 320px) {
     .cover {
         margin-bottom: 65px;
     }
-    
 }
