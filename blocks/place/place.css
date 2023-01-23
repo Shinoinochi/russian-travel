@@ -5,7 +5,7 @@
     "image text";
     grid-template-columns: minmax(460px, 1fr);
     column-gap: 40px;
-    width: 74%;
+    width: 77%;
     margin: 0 auto 80px auto;
 }
 
@@ -21,7 +21,7 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: minmax(340px, 1fr);
-        margin: 0 auto 73px auto;
+        margin: 0 24px 73px 24px;
         column-gap: 28px;
     }
 }

@@ -1,8 +1,10 @@
 .cover__subtitle {
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.2;
-    margin:  0 412px 0 412px;
+    width: 29%;
+    margin:  0 auto 0 auto;
     text-align: center;
     z-index: 1;
 }
@@ -10,16 +12,15 @@
 @media screen and (max-width: 1024px) {
     .cover__subtitle {
         margin: 0 auto;
-        width: 36%;
+        width: 38%;
     }
     
 }
 @media screen and (max-width: 768px) {
     .cover__subtitle {
+        width: 48%;
         margin: 0 204px;
-        font-weight: 400;
-        font-size: 18px;
-        line-height: 1.2;
+        line-height: 1.22;
     }
     
 }
@@ -27,7 +28,7 @@
 @media screen and (max-width: 767px) {
     .cover__subtitle {
         width: 65%;
-        font-weight: 400;
+        margin: 0 auto;
         font-size: 3.4vw;
         line-height: 1.2;
     }
@@ -35,11 +36,9 @@
 }
 @media screen and (max-width: 320px) {
     .cover__subtitle {
-        width: 85%;
-        margin: 0 auto;
-        font-weight: 400;
+        width: 80%;
         font-size: 14px;
-        line-height: 1.1;
+        line-height: 1.12;
     }
     
 }
