@@ -20,8 +20,12 @@
 @media screen and (max-width: 768px) {
     .place {
         grid-template-columns: minmax(340px, 1fr);
-        margin: 0 24px 73px 24px;
+        margin: 0 24px 68px 24px;
         column-gap: 28px;
+        width: auto;
+    }
+    .place:last-child {
+        margin-bottom: 90px;
     }
 }
 @media screen and (max-width: 767px) {
@@ -40,7 +44,7 @@
         "image"
         "text";
         margin: 0 auto;
-        margin-bottom: 50px;
+        margin-bottom: 47px;
         row-gap: 32px;
         width: 100%;
     }
@@ -48,5 +52,8 @@
 @media screen and (max-width: 320px) {
     .place {
         row-gap: 32px;
+    }
+    .place:last-child {
+        margin-bottom: 66px;
     }
 }
